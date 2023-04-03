@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="utf-8">
+<title>bar bendet</title>
+<!-- Sets viewport to the device screen size -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<!--Link an external style sheet-->
+
+<link rel="stylesheet" href="https://use.typekit.net/zag4kuh.css">
+<style> 
+
+
+/*CSS RESET*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/*END RESET*/
+
+
+
+	main { max-width: 100%; }
+	section { max-width: 100%; }
+	img {width: 100%}
+	figure {width: 25%; margin: auto;}
+
+
+/* Overrides desktop style when viewport is less than 600px (for smart phones) */
+@media only screen and (max-width: 600px) {
+	h1, h3 {
+		display:block;
+	}
+}
+
+@font-face {
+	font-family: 'dunbar-low';
+	src: url(https://fonts.adobe.com/fonts/dunbar#details-section+dunbar-low-hairline);
+}
+
+body {
+	background-image: url('gallery/images/background_jpg.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header {
+	text-align: center;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	
+	font-family: 'dunbar-low', sans-serif;
+	font-style: normal;
+}
+
+header h1, header h3, header nav {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+header h3 {
+	padding-left: 5px;
+	color:#245656;
+}
+
+header h1, header h3{
+	margin: 15px auto;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+header nav ul li {
+	text-align: center;
+	max-width: 100%;
+	padding: 10px;
+	margin: 10px auto;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 30px;
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+a:hover {
+	background: #769292;
+	opacity: 0.7;
+	padding: 10px;
+	text-decoration: none;    
+	border-radius: 10px;
+	color:white!important;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/*
+* {
+	background-color: #a7c2c2;
+}
+*/
+</style>
+</head>
+<!-- body -->
+<body>
+<main>
+<section>
+	<header>
+	
+			<h1><a href="about.html">BAR BENDET</a></h1>
+        	<h3>product design</h3>
+	
+
+		<nav>		
+			<ul>
+				<li><a href="gallery/selectedworks.html">selected works</a></li>
+                <li><a href="gallery/index.html">design gallery</a></li>
+				<li><a href="gallery/others.html">other projects</a></li>
+			</ul>		
+		</nav>
+		
+	</header>
+
+</section>
+</main>
+</body>	
+</html>

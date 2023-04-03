@@ -1,0 +1,150 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+main { max-width: 1500px; }
+section { max-width: 1000px; margin: 10px auto; padding: 0 20px; }
+img {width: 100%}
+figure {width: 25%; margin: auto;}
+
+
+@font-face {
+	font-family: 'dunbar-low';
+	src: url(https://fonts.adobe.com/fonts/dunbar#details-section+dunbar-low-hairline);
+}
+
+
+* {
+    font-family: 'dunbar-low', sans-serif;
+	font-style: normal;
+}
+
+
+body {
+	background-image: url('../gallery/images/background_gallery.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+h1 a:link, h1 a:visited, h1 {
+    text-decoration: none;
+    color: #cbdddd;
+    text-align: center!important;
+    font-size: 30px;
+	font-weight: 500;
+    padding-top: 10px;
+}
+
+h1 a:hover {
+    color:#003e3e;
+    background: #cbdddd;
+    padding: 10px 15px;
+    border-radius: 10px;
+    opacity: 0.35;
+}
+
+
+h2 {
+	color:#003e3e;
+    font-size: 10vw;
+    font-weight: 700;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+img {
+    flex-grow: 1;
+    width: 40vw;
+    margin: 15px;
+}
+
+img:hover {
+    opacity: 0.6;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .flex-container{
+        flex-direction: column!important;
+    }
+    img{
+        width:350px;
+    }
+    
+    h2{
+        font-size: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    h2 {
+        font-size: 100px;
+    }
+
+    img {
+        width: 400px;
+    }
+    
+}

@@ -1,0 +1,183 @@
+/*CSS RESET*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+body {
+line-height: 1;
+}
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+
+/*END RESET*/
+
+@media only screen and (max-width: 700px){
+    #sketches figure {
+        width:40%!important;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 808px) {
+    main{min-width:85%; max-width: 90%; overflow: hidden;}
+    section article {margin-right: 22px; overflow: hidden;}
+}
+
+@font-face {
+	font-family: 'dunbar-low';
+	src: url(https://fonts.adobe.com/fonts/dunbar#details-section+dunbar-low-hairline);
+}
+
+/*
+    font-family: 'dunbar-low', sans-serif;
+	font-style: normal;
+	font-weight: 200;
+*/
+
+* {
+    font-family: 'dunbar-low', sans-serif;
+	font-style: normal;
+    background: #9db8b8;
+
+    max-width: 3100px;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 75px;
+    font-weight: 700;
+    color:#003e3e;
+    padding-left: 20px;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 100;
+    padding-bottom: 10px;
+}
+
+header figure {
+    width: 100%;
+    display: block;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+header img {
+    max-width: 90%;
+}
+
+article {
+    width: 100%
+}
+
+article h2 {
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    color: #206565;
+}
+
+#middle p {
+    font-size: 22px;
+    padding-top: 10px;
+    padding-left: 35px;
+}
+
+#middle {
+    padding-bottom: 20px;
+}
+
+article div #yearmaterials {
+    padding-bottom: 15px;
+}
+
+
+#images video, #images figure {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    height: fit-content;
+}
+
+#sketches figure {
+    display:inline-block;
+    padding: 10px;
+    margin: auto;
+    width:30%;
+    height: fit-content;
+}
+
+#sketches {
+    text-align: center;
+}
+
+#totop {
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+article a:link, article a:visited, header a:link, header a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+
+header a:hover, article a:hover {
+    color:white;
+    background:#003e3e;
+    padding: 5px 10px;
+    border-radius: 10px;
+    opacity: 0.35;
+}
+
+section article p {
+    padding-right: 15px;
+}
