@@ -181,3 +181,13 @@ header a:hover, article a:hover {
 section article p {
     padding-right: 15px;
 }
+
+footer h6 {
+    text-align: center!important;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: black;
+}
+

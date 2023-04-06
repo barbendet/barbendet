@@ -118,6 +118,14 @@ img:hover {
     opacity: 0.6;
 }
 
+footer h6 {
+    text-align: center!important;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    color: black;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -125,7 +133,8 @@ img:hover {
         flex-direction: column!important;
     }
     img{
-        width:80%;
+        width:80%!important;
+        margin: auto!important;
     }
     
     h2{
