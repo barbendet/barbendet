@@ -134,7 +134,8 @@ footer h6 {
     }
     img{
         width:80%!important;
-        margin: auto!important;
+        margin: 15px auto!important;
+        justify-content: center;
     }
     
     h2{
