@@ -1,0 +1,103 @@
+creating a note where I can place the deleted images 
+(for a behind the scenes page)
+
+
+WOOD:
+
+adhd:
+
+    <div id="sketches">
+        <figure>
+            <img src="images/adhd/making_1.jpg">
+        </figure>
+        <figure>
+            <img src="images/adhd/making_2.jpg">
+        </figure>
+        <figure>
+            <img src="images/adhd/making_3.jpg">
+        </figure>
+        <figure>
+            <img src="images/adhd/making_4.jpg">
+        </figure>
+        <figure>
+            <img src="images/adhd/making_5.jpg">
+        </figure>
+    </div>
+
+one-week chair:
+
+        <figure>
+            <img src="images/one_week/making_1.jpg">
+        </figure>
+        <figure>
+            <img src="images/one_week/making_2.jpg">
+        </figure>
+        <figure>
+            <img src="images/one_week/making_3.jpg">
+        </figure>
+        <figure>
+            <img src="images/one_week/making_4.jpg">
+        </figure>
+
+coat rack:
+
+        <figure>
+            <img src="images/coats/model_1.jpg">
+        </figure>
+        <figure>
+            <img src="images/coats/model_2.jpg">
+        </figure>
+
+        <figure>
+            <img src="images/coats/making_1.jpg">
+        </figure>
+        <figure>
+            <img src="images/coats/making_2.jpg">
+        </figure>
+        <figure>
+            <img src="images/coats/making_3.jpg">
+        </figure>
+        <figure>
+            <img src="images/coats/making_4.jpg">
+        </figure>
+        <figure>
+            <img src="images/coats/making_5.jpg">
+        </figure>
+        <figure>
+            <img src="images/coats/making_6.jpg">
+        </figure>
+
+stool:
+
+        <figure>
+            <img src="images/stool/making_1.jpg">
+        </figure>
+        <figure>
+            <img src="images/stool/making_2.jpg">
+        </figure>
+        <figure>
+            <img src="images/stool/making_3.jpg">
+        </figure>
+        <figure>
+            <img src="images/stool/making_4.jpg">
+        </figure>
+
+
+
+MISCELLANEOUS:
+
+lighting:
+
+        <figure>
+            <img src="images/lighting/final2.jpg">
+        </figure>
+        <figure>
+            <img src="images/lighting/final3.jpg">
+        </figure>
+        
+        <figure>
+            <img src="images/lighting/motion2.jpg">
+        </figure>
+        <figure>
+            <img src="images/lighting/model1.jpg">
+        </figure>
