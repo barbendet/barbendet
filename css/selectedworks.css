@@ -51,7 +51,10 @@ border-spacing: 0;
 
 
 
-main { max-width: 1500px; }
+main {     
+    max-width: 1500px;
+    margin: 0 auto;
+    text-align: center;  }
 section { max-width: 1000px; margin: 10px auto; padding: 0 20px; }
 
 
